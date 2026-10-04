@@ -11,6 +11,7 @@ import {
   CheckCircle2,
 } from 'lucide-react';
 import { Navbar, ActiveTab } from './components/Navbar';
+import logoUrl from './assets/logo.png';
 import { PuzzleBoard } from './components/PuzzleBoard';
 import { ControlPanel } from './components/ControlPanel';
 import { VictoryModal } from './components/VictoryModal';
@@ -664,7 +665,7 @@ export default function App() {
       <footer className="mt-16 bg-white border-t border-emerald-200/80 py-8 px-4 sm:px-6 lg:px-8 text-xs text-slate-500">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <img src="/logo.png" alt="Logo" className="w-7 h-7 object-contain" />
+            <img src={logoUrl} alt="Logo" className="w-7 h-7 object-contain" />
             <div className="flex flex-col text-left">
               <span className="font-extrabold text-emerald-950 text-xs">Universitas PGRI Ronggolawe (UNIROW) Tuban</span>
               <span className="text-[11px] text-slate-500 font-medium">

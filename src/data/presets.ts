@@ -3,6 +3,8 @@
  * Rendered as high-resolution SVGs encoded as Data URLs for flawless canvas slicing.
  */
 
+import logoUrl from '../assets/logo.png';
+
 export interface CampusPreset {
   id: string;
   title: string;
@@ -531,8 +533,8 @@ export const CAMPUS_PRESETS: CampusPreset[] = [
     title: 'Logo Resmi MF',
     category: 'Identitas & Lambang',
     description: 'Logo resmi lambang kebanggaan dengan paduan warna elegan merah marun dan emas.',
-    imageUrl: '/logo.png',
-    thumbnailUrl: '/logo.png',
+    imageUrl: logoUrl,
+    thumbnailUrl: logoUrl,
     accentColor: '#881337',
   },
 ];

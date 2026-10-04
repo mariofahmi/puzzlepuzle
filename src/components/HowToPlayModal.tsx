@@ -1,6 +1,7 @@
 import React from 'react';
 import { X, HelpCircle, ArrowRightLeft, Move, Hash, Eye, Trophy, Compass, Lightbulb, Music } from 'lucide-react';
 import { soundFx } from '../utils/sound';
+import logoUrl from '../assets/logo.png';
 
 interface HowToPlayModalProps {
   isOpen: boolean;
@@ -123,7 +124,7 @@ export const HowToPlayModal: React.FC<HowToPlayModalProps> = ({ isOpen, onClose 
         </button>
 
         <div className="flex items-center justify-center gap-2 text-xs text-slate-500 font-medium">
-          <img src="/logo.png" alt="Logo" className="w-4 h-4 object-contain" />
+          <img src={logoUrl} alt="Logo" className="w-4 h-4 object-contain" />
           <span>Perancang: <strong className="text-emerald-900 font-bold">Mario Fahmi Syahrial</strong></span>
         </div>
       </div>

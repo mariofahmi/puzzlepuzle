@@ -1,6 +1,7 @@
 import React from 'react';
 import { Volume2, VolumeX, Sparkles, Trophy, HelpCircle, Music } from 'lucide-react';
 import { soundFx } from '../utils/sound';
+import logoUrl from '../assets/logo.png';
 
 export type ActiveTab = 'puzzle' | 'leaderboard' | 'help';
 
@@ -39,7 +40,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               <div className="flex items-center gap-2.5">
                 <div className="w-10 h-10 rounded-xl bg-white border border-emerald-200/90 p-1 flex items-center justify-center shadow-xs group-hover:scale-105 group-hover:border-emerald-500 transition-all overflow-hidden shrink-0">
                   <img
-                    src="/logo.png"
+                    src={logoUrl}
                     alt="Logo"
                     className="w-full h-full object-contain"
                   />
