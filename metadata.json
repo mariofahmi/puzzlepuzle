@@ -1,0 +1,6 @@
+{
+  "name": "Puzzle Puzzle",
+  "description": "Game puzzle gambar interaktif Puzzle Puzzle Universitas PGRI Ronggolawe Tuban dengan fitur acak gambar dan papan peringkat pemain.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
